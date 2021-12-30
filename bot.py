@@ -2,12 +2,13 @@
 
 # This is a simple echo bot using the decorator mechanism.
 # It echoes any incoming text messages.
-
+import os
 import telebot
 import coin
-API_TOKEN = '5095857991:AAGbQhcB2mvELKlT2LhZ-OnBPXje5QNwTZY'
+API_TOKEN =  os.environ['TELEGRAM_TOKEN']
 
 bot = telebot.TeleBot(API_TOKEN)
+
 
 
 # Handle '/start' and '/help'
