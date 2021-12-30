@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import pandas 
 import requests
 import re
 url = "https://www.tgju.org/profile/sekeb"
